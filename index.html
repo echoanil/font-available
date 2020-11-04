@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font Available</title>
+    <link rel="icon" href="https://img.icons8.com/cotton/64/000000/type.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="switch" />
+    <div class="app">
+      <div class="body">
+        <div class="main-circle"></div>
+        <div class="phone">
+          <!-- Top -->
+          <div class="menu">
+            <div class="time">00:00</div>
+            <div class="icons">
+              <div class="network"></div>
+              <div class="battery"></div>
+            </div>
+          </div>
+          <!-- Middle -->
+          <div class="content">
+            <div class="circle">
+              <div class="crescent"></div>
+            </div>
+            <h1 class="title">Does this font exist?</h1>
+            <form id="theform">
+              <div class="field">
+                <div class="control">
+                  <input
+                    id="fontInput"
+                    class="input is-primary"
+                    type="text"
+                    placeholder="Enter Font Name"
+                    style="font-family: 'Syne Mono', monospace"
+                  />
+                  <br />
+                  <br />
+                  <button
+                    type="submit"
+                    class="button is-primary is-outlined"
+                    style="font-family: 'Syne Mono', monospace"
+                  >
+                    Check
+                  </button>
+                </div>
+              </div>
+            </form>
+            <label for="switch">
+              <div class="toggle"></div>
+              <div class="names">
+                <p class="light">Light</p>
+                <p class="dark">Dark</p>
+              </div>
+            </label>
+            <!-- Bottom-->
+            <div class="mark"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
