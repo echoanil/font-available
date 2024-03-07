@@ -17,6 +17,7 @@ context.font = "72px '" + fontName + "', monospace";
 ```
 
 Below is what our sample text using Corbel looks like:
+
 ![Text with corbel font](https://raw.githubusercontent.com/anilkaundal/font-available/main/Images/Corbel.png)
 
 I have used the Canvas element’s measureText function to measure the size (in pixels) of both pieces of text. I stored the size of our monospace text in a variable called baselineSize, and I stored the size of our text drawn using Corbel as newSize.
